@@ -53,15 +53,17 @@ header{
     padding: 20px;
 }
 .imagem img{
-    width: 400px;
-    margin: 0 0 10px 0;
-    margin-top: 10px;
+   width: 40vw;
+    max-width: 400px;
+    /* margin: 0 0 0 60px; */
+    margin-left: clamp(20px, 5vw, 60px);
+    border:solid 3px var(--corPrincipal);
 }
 /*Rodapé da pagina sobre mim*/
 .final{
     background-color: #22D4FD;
     text-align: center;
-    padding: 15px;
+    padding: 28px;
     font-size: 16px;
     font-family: var(--fontTitulo);
 }
@@ -73,18 +75,20 @@ header{
     margin: 30px;
 }
 .redes a{
-    text-decoration: none;
-    background-color: #22D4FD;
+      background-color: #22D4FD;
     color: #000000;
-    font-size: 30px;
-    font-family: var(--fontTitulo);
-    border:solid 6px var(--corPrincipal);
+    font-size: 20px;
+    text-decoration: none;
+
     border-radius: 16px;
+    border: solid 10px var(--corPrincipal);
+    padding: 0 10px 0 10px;
+    /* margin-top: 40px; */
 }
 @media (max-width: 1070px) {
 
     .apresentacao {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         width: 100%;
         padding: 30px 20px;
@@ -132,6 +136,7 @@ header{
 
     .apresentacao {
         padding: 25px 20px;
+        
     }
 
     .informacoes h1 {
