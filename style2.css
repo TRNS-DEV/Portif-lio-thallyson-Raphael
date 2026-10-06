@@ -70,8 +70,8 @@ header{
 /*Botões de instagram e github*/
 .redes{
     display: flex;
-   flex-direction: column;
-    gap: 30px;
+   flex-direction: column-reverse;
+    gap: 10px;
     margin: 30px;
     align-items: center;
 }
@@ -83,7 +83,7 @@ header{
 
     border-radius: 16px;
     border: solid 10px var(--corPrincipal);
-    padding: 0 10px 0 10px;
+    padding: 0 60px 0 60px;
     /* margin-top: 40px; */
 }
 @media (max-width: 1070px) {

@@ -71,7 +71,7 @@ header {
 
 .contato {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     align-items: center;
     flex-direction: column;
     
@@ -82,13 +82,13 @@ header {
 .contato a {
     background-color: #22D4FD;
     color: #000000;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 
     border-radius: 16px;
     border: solid 10px var(--corPrincipal);
-    padding: 0 10px 0 10px;
-    /* margin-top: 40px; */
+    padding: 0 60px 0 60px;
+   
   
 
 }
