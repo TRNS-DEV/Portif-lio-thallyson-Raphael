@@ -70,9 +70,10 @@ header{
 /*Botões de instagram e github*/
 .redes{
     display: flex;
-    justify-content: flex-start;
+   flex-direction: column;
     gap: 30px;
     margin: 30px;
+    align-items: center;
 }
 .redes a{
       background-color: #22D4FD;
