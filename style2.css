@@ -56,13 +56,14 @@ header{
     width: 400px;
     margin: 0 0 10px 0;
     margin-top: 10px;
+    border: solid 3px var(--corPrincipal);
 }
 /*Rodapé da pagina sobre mim*/
 .final{
     background-color: #22D4FD;
     text-align: center;
-    padding: 15px;
-    font-size: 16px;
+    padding: 2px;
+    font-size: 1rem;
     font-family: var(--fontTitulo);
 }
 /*Botões de instagram e github*/
@@ -77,7 +78,7 @@ header{
     background-color: #22D4FD;
     color: #000000;
     font-size: 30px;
-    font-family: var(--fontTitulo);
+    font-family: var(--fontPrincipal);
     border:solid 6px var(--corPrincipal);
     border-radius: 16px;
 }

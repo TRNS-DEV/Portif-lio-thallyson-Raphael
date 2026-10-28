@@ -83,7 +83,7 @@ header {
     color: #000000;
     font-size: 20px;
     text-decoration: none;
-
+    font-family: var(--fontPrincipal);
     border-radius: 16px;
     border: solid 10px var(--corPrincipal);
     padding: 0 10px 0 10px;
@@ -113,11 +113,12 @@ header {
     background-color: #22D4FD;
     color: black;
     text-align: center;
-    padding: 10px;
+    padding: 3px;
+    padding-top:2px;
     font-size: 1rem;
     font-family: var(--fontTitulo);
-    margin-top: 45px;
-    padding-bottom:15px;
+    margin-top: 35px;
+    padding-bottom:3px;
 }
 @media (max-width: 1070px) {
 
